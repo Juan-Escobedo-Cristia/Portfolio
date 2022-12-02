@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Juan Escobedo</title>
+</head>
+
+<body>
+    <header class="inicio">
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" target="">Home</a>
+                </li>
+                <li>
+                    <a href="aboutme.html" target="">About me</a>
+                </li>
+                <li>
+                    <a href="projects.html" target="">Projects</a>
+                </li>
+                <li>
+                    <a href="" target="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main data-aos="zoom-out">
+
+        <section class="contact">
+            <h2>Follow me in</h2>
+
+            <div class="redes">
+                <div class="linkedin">
+                    <img src="img\linkedin.svg" alt="">
+                    <a href="https://www.linkedin.com/in/juan-escobedo-cristi%C3%A1-39a325256/"
+                        target="_blank">Linkedin</a>
+                </div>
+
+                <div class="medium">
+                    <img src="img\medium.svg" alt="">
+                    <a href="https://medium.com/@juanescobedocristia" target="_blank">Medium</a>
+                </div>
+            </div>
+        </section>
+
+        <form action="">
+            <input type="text" name="nombre" placeholder="Name and surname">
+            <input type="text" name="correo" placeholder="Email">
+            <input type="text" name="telefono" placeholder="Phone number">
+            <textarea name="mensaje" placeholder="Write here your comments"></textarea>
+            <input type="button" value="Send" id="boton">
+        </form>
+    </main>
+</body>
+<script>
+    AOS.init();
+</script>
+
+</html>
